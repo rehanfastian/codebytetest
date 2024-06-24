@@ -5,6 +5,7 @@ import com.coderbyte.test.model.User;
 import java.util.Arrays;
 import java.util.List;
 
+@Service
 public class UserService {
 
     private final RestTemplate restTemplate;
