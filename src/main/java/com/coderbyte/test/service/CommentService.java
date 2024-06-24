@@ -6,6 +6,7 @@ import com.coderbyte.test.model.Post;
 import java.util.Arrays;
 import java.util.List;
 
+@Service
 public class CommentService {
 
     private final RestTemplate restTemplate;
