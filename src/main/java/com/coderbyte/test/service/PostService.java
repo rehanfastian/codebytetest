@@ -3,6 +3,7 @@ package com.coderbyte.test.service;
 import com.coderbyte.test.model.Post;
 import java.util.List;
 
+@Service
 public class PostService {
 
     private final RestTemplate restTemplate;
